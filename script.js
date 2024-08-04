@@ -34,19 +34,19 @@ musicCheckbox.addEventListener('change', () => {
 })
 
 focusBt.addEventListener('click', () => {
-    timeInSeconds = 5
+    timeInSeconds = 1500
     alternContext('foco')
     focusBt.classList.add('active')
 })
 
 shortBt.addEventListener('click', () => {
-    timeInSeconds = 3
+    timeInSeconds = 300
     alternContext('descanso-curto')
     shortBt.classList.add('active')
 })
 
 extensiveBt.addEventListener('click', () => {
-    timeInSeconds = 9
+    timeInSeconds = 900
     alternContext('descanso-longo')
     extensiveBt.classList.add('active')
 })
